@@ -1,0 +1,29 @@
+SplashKit Animation
+
+//Multi-frame: ranges are in[]
+//[a-b] = numbers from a to b inclusive
+//[a,b,c] = explicit values
+//[a-b,c] = combination
+
+f:[0-2],[0-2],5,0
+f:[3-5],[3-5],5,3
+f:[6-8],[6-8],5,6
+f:[9-11],[9-11],5,9
+f:[12],[12],5,12
+f:[13],[13],5,13
+f:[14],[14],5,14
+f:[15],[15],5,15
+f:[16],[16],5,16
+f:[18-29],[18-29],17,18
+
+//identifiers
+i:MoveLeft,0
+i:MoveUp,3
+i:MoveRight,6
+i:MoveDown,9
+i:StopUp,12
+i:StopDown,13
+i:StopLeft,14
+i:StopRight,15
+i:Stopped,16
+i:Dead,18
